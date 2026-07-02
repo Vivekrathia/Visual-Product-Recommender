@@ -4,16 +4,6 @@ An AI-powered image recommendation system that finds visually similar fashion pr
 
 ---
 
-## 📸 Demo
-
-> Add screenshots here after deploying.
-
-| Home Page | Recommendations |
-|-----------|-----------------|
-| ![Home](screenshots/home.png) | ![Results](screenshots/results.png) |
-
----
-
 ## ✨ Features
 
 - 📤 Upload any fashion product image
@@ -54,6 +44,8 @@ VisualProductRecommender/
 │   ├── feature_extractor.py
 │   ├── recommender.py
 │   └── similarity.py
+│   └── feature_extractor.py
+│   └── preprocess.py
 │
 ├── styles/
 │   └── style.css
@@ -175,13 +167,3 @@ python src/embeddings.py
 ## 👨‍💻 Author
 
 **Vivek Rathia**
-
-M.Tech Artificial Intelligence
-
-Amity University
-
----
-
-## ⭐ If you like this project
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
