@@ -1,0 +1,234 @@
+/* ===========================
+   Global
+=========================== */
+
+.main .block-container {
+    max-width: 1450px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Hide Streamlit Footer */
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* ===========================
+   Typography
+=========================== */
+
+.main-title {
+
+    font-size: 46px;
+    font-weight: 700;
+
+    margin-bottom: 8px;
+
+    color: white;
+}
+
+.subtitle {
+
+    color: #9ca3af;
+
+    font-size: 18px;
+
+    margin-bottom: 35px;
+}
+
+.section-title {
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+.footer {
+
+    text-align: center;
+
+    color: #777;
+
+    margin-top: 40px;
+
+    font-size: 15px;
+}
+
+/* ===========================
+   Product Name
+=========================== */
+
+.product-name {
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    line-height: 1.35;
+
+    margin-top: 12px;
+
+    margin-bottom: 12px;
+
+    min-height: 65px;
+}
+
+/* ===========================
+   Badges
+=========================== */
+
+.badge {
+
+    display: inline-block;
+
+    background: #262730;
+
+    color: white;
+
+    padding: 7px 14px;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+
+    border: 1px solid #444;
+
+    transition: all .25s ease;
+}
+
+.badge:hover {
+
+    background: #3b82f6;
+
+    border-color: #3b82f6;
+
+    cursor: default;
+}
+
+/* ===========================
+   Images
+=========================== */
+
+[data-testid="stImage"] img {
+
+    border-radius: 16px;
+
+    transition: .30s ease;
+
+    border: 2px solid transparent;
+}
+
+[data-testid="stImage"] img:hover {
+
+    transform: scale(1.03);
+
+    border-color: #3b82f6;
+}
+
+/* ===========================
+   Progress Bar
+=========================== */
+
+.stProgress {
+
+    margin-top: 12px;
+
+    margin-bottom: 8px;
+}
+
+/* ===========================
+   File Uploader
+=========================== */
+
+[data-testid="stFileUploader"] {
+
+    border: 2px dashed #444;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    background: #181818;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+section[data-testid="stSidebar"] {
+
+    background: #111827;
+}
+
+/* ===========================
+   Slider
+=========================== */
+
+.stSlider {
+
+    padding-top: 12px;
+
+    padding-bottom: 20px;
+}
+
+/* ===========================
+   Success Box
+=========================== */
+
+div[data-testid="stAlert"] {
+
+    border-radius: 14px;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.stButton button {
+
+    border-radius: 12px;
+
+    transition: .25s ease;
+}
+
+.stButton button:hover {
+
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #444;
+
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #666;
+}
